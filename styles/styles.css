@@ -1,4 +1,34 @@
-@import url(./styles/animacao.css);
+/*animação*/
+@keyframes slide_in {
+    from {top: 30px; opacity: 0%; display: none}
+    to {top: 60px; opacity: 100%; display: block}
+}
+
+@keyframes slide_out {
+    from {top: 60px; opacity: 100%;display: block;}
+    to {top: 30px; opacity: 0%;display: none;}
+}
+
+@keyframes main_para_baixo {
+    from {padding-top: 0px;}
+    to {padding-top: 30px;}
+}
+
+@keyframes main_para_cima {
+    from {padding-top: 30px;}
+    to {padding-top: 0px;}
+}
+
+@keyframes light {
+    from {background-color: var(--cor--de--fundo); color: var(--fonte--primaria--cor);}
+    to {background-color: var(--cor--de--fundo--light); color: var(--fonte--primaria--cor--light)}
+}
+
+@keyframes dark {
+    from {background-color: var(--cor--de--fundo--light); color: var(--fonte--primaria--cor--light);}
+    to {background-color: var(--cor--de--fundo); color: var(--fonte--primaria--cor)}
+}
+/*animação*/
 
 /* Reset */
     * {padding: 0; margin: 0; text-decoration: none;} button {padding:0; border: none; background: none; }
