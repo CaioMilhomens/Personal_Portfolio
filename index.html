@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caio Milhomens</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&family=Jomhuria&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="headerMode">
+        <nav class="cabecalho">
+            <div class="cabecalho_linha_I">
+                <p class="cabecalho_linha_I_titulo">CAIO MILHOMENS</p>
+                <section class="cabecalho_linha_I_bloco">
+                    <div class="cabecalho_linha_I_bloco_hiperlinks">
+                        <a class="links" href="#primeira_pagina">Sobre Mim</a>
+                        <a class="links" href="#segunda_pagina">Portfolio</a>
+                        <a class="links" href="#terceira_pagina">Contato</a>
+                    </div>
+                    <div class="cabecalho_linha_I_bloco_icones">
+                        <img id="icones" class="dark hide lightDark_mode" src="/assets/claro.png">
+                        <img id="icones" class="light  lightDark_mode" src="/assets/escuro.png">
+                        <img id="icones" class="hamburger_menu" src="/assets/hamburguer.png">
+                    </div>
+                </section>
+            </div>
+            <div data-cabecalho class="cabecalho_linha_II">
+                <div class="cabecalho_linha_II_bloco">
+                    <a href="#primeira_pagina" class="cabecalho_linha_II_links">Sobre Mim</a>
+                    <a href="#segunda_pagina" class="cabecalho_linha_II_links">Portfolio</a>
+                    <a href="#terceira_pagina" class="cabecalho_linha_II_links">Contato</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="primeira_pagina" id="primeira_pagina">
+            <img src="/assets/Caio.png" alt="Imagem do Caio Milhomens" class="imagem_principal">
+            <div class="primeira_pagina_container">
+                <h1 class="primeira_pagina_titulo">SOBRE MIM</h1>
+                <p class="primeira_pagina_paragrafo_1">Olá, bem-vindo à minha jornada como Programador Iniciante!</p>
+                <p class="primeira_pagina_paragrafo_2">Meu nome é Caio e sou um programador em ascensão, determinado a aprender e crescer constantemente nesta indústria em constante evolução. Meu objetivo é transformar linhas de código em soluções que resolvam problemas do mundo real e tornem a vida das pessoas mais fácil.</p>
+            </div>
+        </section>
+        <section class="segunda_pagina" id="segunda_pagina">
+            <div class="segunda_pagina_textos">
+            <h1 class="segunda_pagina_titulo">PORTFOLIO</h1>
+            <h2 class="segunda_pagina_titulo">EM CONSTRUÇÃO</h2>
+            </div>
+            <div class="container">
+                <button class="seta_esquerda seta" id="seta">&#5130;</button>
+                <button class="seta_direita seta" id="seta">&#5125;</button>
+                <ul class="carrocel">
+                    <li class="carrocel_item item_principal"><img class="carrocel_item_img" src="/assets/construcao.png" alt="imagem de em construção">Projeto 01</li>
+                    <li class="carrocel_item"><img class="carrocel_item_img" src="/assets/construcao.png" alt='imagem de "em construção"'>Projeto 02</li>
+                    <li class="carrocel_item"><img class="carrocel_item_img" src="/assets/construcao.png" alt='imagem de "em construção"'>Projeto 03</li>
+                    <li class="carrocel_item"><img class="carrocel_item_img" src="/assets/construcao.png" alt='imagem de "em construção"'>Projeto 04</li>
+                    <li class="carrocel_item"><img class="carrocel_item_img" src="/assets/construcao.png" alt='imagem de "em construção"'>Projeto 05</li>
+                    <li class="carrocel_item"><img class="carrocel_item_img" src="/assets/construcao.png" alt='imagem de "em construção"'>Projeto 06</li>
+                </ul>
+            </div>
+        </section>
+        <section class="terceira_pagina" id="terceira_pagina">
+            <h1 class="segunda_pagina_titulo">CONTATOS</h1>
+            <div class="terceira_pagina_conteudo">
+                <ul class="lista_contato">
+                    <div class="contato_container">
+                        <img src="/assets/Email_logo.png" class="img_page3">
+                        <li class="terceira_pagina_item">caiocezarmilhomens@gmail.com</li>
+                    </div>
+                    <div class="contato_container">
+                        <img src="/assets/Whatsapp_logo.png" class="img_page3">
+                        <li class="terceira_pagina_item">(62) 99156-7545</li>
+                    </div>
+                    <div class="contato_container">
+                        <img src="/assets/Git_logo.png" class="img_page3">
+                        <li class="terceira_pagina_item">Github-caiomilhomens</li>
+                    </div>
+                </ul>
+            </div>
+        </section>
+    </main>
+<script src="/scripts/script.js" ></script>
+</body>
+</html>
