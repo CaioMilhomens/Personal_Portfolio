@@ -112,20 +112,6 @@ header {
     font-size: var(--fonte--secundaria--size);
 }
 
-.links:hover{
-    transform: translate(0, -10px);
-    transition: all .6s ease-in-out;
-    color: khaki;
-}
-
-#icones:hover {
-    transform: translate(0, -5px);
-    transition: all .6s ease-in-out;
-    color: khaki;
-    cursor: pointer;
-}
-
-
 .cabecalho_linha_I_bloco_icones {
     padding: 0 30px 0px 0;
     display: flex;
