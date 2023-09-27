@@ -433,7 +433,19 @@ header {
     .container {
         max-width: 600px;
     }
-}
+    .links:hover{
+    transform: translate(0, -10px);
+    transition: all .6s ease-in-out;
+    color: khaki;
+    }
+
+    #icones:hover {
+    transform: translate(0, -5px);
+    transition: all .6s ease-in-out;
+    color: khaki;
+    cursor: pointer;
+    }
+    }
 
 @media screen and (min-width: 1200px) {
     body {
